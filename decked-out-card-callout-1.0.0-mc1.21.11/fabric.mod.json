@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "decked-out-obs",
+	"version": "1.0.0",
+	"name": "Decked Out Card Callout mod",
+	"description": "Shows Decked Out card callouts as a pop-up on your Minecraft screen - no OBS needed. Based on Decked Out OBS by Meza (original author).",
+	"authors": [
+		"SIRTACOOOOO"
+	],
+	"contact": {
+		"homepage": "https://github.com/SIRTACOOOOO/Decked-Out-Card-Callout-mod",
+		"sources": "https://github.com/SIRTACOOOOO/Decked-Out-Card-Callout-mod",
+		"issues": "https://github.com/SIRTACOOOOO/Decked-Out-Card-Callout-mod/issues"
+	},
+	"license": "GPL-3.0-only",
+	"icon": "assets/decked-out-obs/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"gg.meza.doobs.DeckedOutOBS",
+			"gg.meza.doobs.hud.CardHudInit"
+		],
+		"modmenu": [
+			"gg.meza.doobs.hud.ModMenuIntegration"
+		]
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"decked-out-obs.discord": "https://discord.gg/dvg3tcQCPW",
+				"decked-out-obs.support": "https://ko-fi.com/meza"
+			}
+		}
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20.1",
+		"fabric-api": "*"
+	},
+	"contributors": [
+		"Meza"
+	],
+	"suggests": {
+		"cloth-config": "*",
+		"modmenu": "*"
+	}
+}

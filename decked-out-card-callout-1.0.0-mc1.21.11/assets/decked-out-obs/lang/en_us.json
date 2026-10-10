@@ -1,0 +1,12 @@
+{
+  "decked-out-obs.message.server_started": "Decked Out card callouts are on",
+  "decked-out-obs.message.obs_source": "Cards pop up on your screen (change size/position in Mod Menu). /deckedout dungeon test shows a sample.",
+  "decked-out-obs.message.calibration_failed": "Could not determine the dungeon layout. Are you setting the correct barrel?",
+  "decked-out-obs.system.processing": "Dungeon not set, skipping block-based card callout processing.",
+  "decked-out-obs.system.playing_card": "Playing sound: %s",
+  "decked-out-obs.system.resetting": "Processed IDs have been reset.",
+  "decked-out-obs.system.setting_dungeon": "Setting key barrel at %s",
+  "decked-out-obs.message.current_dungeon": "The dungeon is at: %s facing: %s",
+  "decked-out-obs.discord": "Discord",
+  "decked-out-obs.support": "Support on Ko-fi"
+}
